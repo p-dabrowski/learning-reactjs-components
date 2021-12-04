@@ -1,15 +1,14 @@
 import React from "react";
 import Heading from "./Heading.jsx";
 import List from "./List.jsx";
-
-const year = new Date().getFullYear();
+import CreatedIn from "./CreatedIn.jsx";
 
 function App() {
   return (
     <div>
       <Heading />
       <List />
-      Created in: {year}
+      <CreatedIn />
     </div>
   );
 }
